@@ -4,7 +4,7 @@
 ## Install
 
 ```bash
-git clone
+git clone git@github.com:seperez/meetupBAFrotend-testse2e.git
 cd meetupBAFrontend-teste2e
 npm install
 npm run selenium
