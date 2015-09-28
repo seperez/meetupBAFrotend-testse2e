@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install",
+    "test": "./node_modules/.bin/nightwatch nightwatch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.8.3",
+    "phantomjs": "^1.9.16",
+    "selenium-standalone": "4.4.0"
+  }
 }
